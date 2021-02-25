@@ -1,32 +1,29 @@
 const help = (prefix) => {
 	return `「Comandos」
 
-◪ INFO ⛧᭄
+◪ SOBRE ⛧᭄
 
   ❏ Prefixo: 「${prefix}」
   ❏ Dono: Victor♟
+  ❏ Número : wa.me/558386737669
+  ❏ BOT : Serena セリーナ
   
-◪ SOBRE ⛧᭄
+◪ STICKER ⛧᭄
   │
-  ├─❏ ${prefix}blocklist
-  └─❏ dono : wa.me/558386737669
-  
-◪ MÍDIA ⛧᭄
-  │
-  ├─❏ ${prefix}sticker       ☆ converter imagem em figurinha
+  ├─❏ ${prefix}sticker      ☆ converter imagem em figurinha
   └─❏ ${prefix}toimg        ☆ converter figurinha em imagem
  
  ◪ ZOEIRA ⛧᭄
   │
-  ├─❏ ${prefix}%gay
-  ├─❏ ${prefix}%gado
-  └─❏ ${prefix}%corno
+  ├─❏ ${prefix}%gay    ☆mostra em % o quanto você é gay
+  ├─❏ ${prefix}%gado   ☆mostra em % o quanto você é gado
+  └─❏ ${prefix}%corno  ☆mostra em % o quanto você é 
   
 ◪ ANIMES ⛧᭄
   │
-  ├─❏ ${prefix}loli
-  ├─❏ ${prefix}randomanime
-  └─❏ ${prefix}pokemon
+  ├─❏ ${prefix}loli        ☆fotos de loli
+  ├─❏ ${prefix}randomanime    ☆fotos de animes aleatórios 
+  └─❏ ${prefix}pokemon      ☆fotos aleatórias de pokémon
   
   ◪ ÁUDIO ⛧᭄
   │
@@ -34,10 +31,10 @@ const help = (prefix) => {
   ├─❏ ${prefix}play           ☆baixar música
   └─❏ ${prefix}tomp3         ☆pegar áudio do vídeo 
   
-  ◪ HENTAI ⛧᭄
+  ◪ HENTAI ⛧᭄      ☆só use no grupo se o adm liberar 
   │
-  ├─❏ ${prefix}randomhentai
-  └─❏ ${prefix}hentai
+  ├─❏ ${prefix}randomhentai  ☆hentai aleatório 
+  └─❏ ${prefix}hentai   ☆hentai
   
   ◪ OUTROS ⛧᭄
   │
@@ -53,6 +50,7 @@ const help = (prefix) => {
   ├─❏ ${prefix}images aa    ☆pesquisa no Pinteres
   ├─❏ ${prefix}ytmp3        ☆baixa áudio de vídeo do Youtube com link
   └─❏ ${prefix}ytmp4        ☆baixa vídeo do Youtube com link
+
   ◪ STALK ⛧᭄
   │
   ├─❏ ${prefix}tiktokstalk    ☆manda info do perfil com nome de usuário 
@@ -60,14 +58,14 @@ const help = (prefix) => {
   
   ◪ COMANDOS DO VICTOR ⛧᭄
   │
-  ├─❏ ${prefix}setprefix
-  ├─❏ ${prefix}block 
-  ├─❏ ${prefix}clearall
+  ├─❏ ${prefix}setprefix   ☆mudar o prefixo
+  ├─❏ ${prefix}block       ☆bloquear um número 
+  ├─❏ ${prefix}clearall    ☆limpar todos os chats
   └─❏ ${prefix}bcgc
   
   ◪ SOBRE O DONO ⛧᭄
   │
-  ├─❏ Nome : Victor♟🖤
+  ├─❏ Nome : Victor♟
   └─❏ Número : wa.me/558386737669`
 }
 
