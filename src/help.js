@@ -54,7 +54,7 @@ const help = (prefix) => {
 
  ◪ DOWNLOADER ⛧᭄
   │
-  ├─❏ ${prefix}images aa    ☆pesquisa no Pinteres
+  ├─❏ ${prefix}images aa    ☆pesquisa no Pinterest
   ├─❏ ${prefix}ytmp3        ☆baixa áudio de vídeo do Youtube com link
   └─❏ ${prefix}ytmp4        ☆baixa vídeo do Youtube com link
 
