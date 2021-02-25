@@ -58,12 +58,14 @@ const help = (prefix) => {
   
   ◪ COMANDOS DO VICTOR ⛧᭄
   │
+  ├─❏ ${prefix}clone @     ☆clonar foto do alvo
+  ├─❏ ${prefix}setppbot    ☆mudar a foto do BOT
   ├─❏ ${prefix}setprefix   ☆mudar o prefixo
-  ├─❏ ${prefix}block       ☆bloquear um número 
+  ├─❏ ${prefix}block @     ☆bloquear um número 
   ├─❏ ${prefix}clearall    ☆limpar todos os chats
   └─❏ ${prefix}bcgc
   
-  ◪ SOBRE O DONO ⛧᭄
+  ◪ DONO ⛧᭄
   │
   ├─❏ Nome : Victor♟
   └─❏ Número : wa.me/558386737669`
