@@ -17,7 +17,7 @@ const help = (prefix) => {
   
 ◪ STICKER ⛧᭄
   │
-  ├─❏ ${prefix}sticker      ☆ converter imagem em figurinha
+  ├─❏ ${prefix}sticker      ☆ converter imagem/gif/vídeo em figurinha
   └─❏ ${prefix}toimg        ☆ converter figurinha em imagem
  
  ◪ ZOEIRA ⛧᭄
