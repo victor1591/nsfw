@@ -1,6 +1,5 @@
 const nsfwmenu = (prefix, pushname) => {
-    return `Oiin resumindo aqui e o menu NSFW
-    ◪ *NSFW*
+    return `◪ COMANDOS NSFW ⛧᭄
   │
   ├─ ❏ ${prefix}nsfwbobs
   ├─ ❏ ${prefix}randomhentaio
@@ -13,7 +12,7 @@ const nsfwmenu = (prefix, pushname) => {
   ├─ ❏ ${prefix}nsfwarmpits
   └─ ❏ ${prefix}nsfwfeets
 
-  _obs para usar esses comandos ative o menu NSFW_\n _Digite_\n ${prefix}*nsfw 1*`
+obs : digite ${prefix}nsfw 1 para ativar as funções`
 
 
 
