@@ -198,7 +198,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Oiin @${num.split('@')[0]}\nBem vindo ao grupo *${mdata.subject}* Leia a descrição por favor 😊`
+				teks = `Olá @${num.split('@')[0]}\nBem vindo(a) ao grupo: *${mdata.subject}* Leia a descrição por favor`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -253,7 +253,7 @@ async function starts() {
 				levelnoton: '❬ X ❭ *level não ativo*',
 				levelnol: '*Pqp kskst level* 0 ',
 				error: {
-					stick: '[❗] Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+					stick: 'Ops, deu erro',
 					Iv: '❌ Link inválido ❌'
 				},
 				only: {
@@ -262,7 +262,7 @@ async function starts() {
 					ownerB: 'Este comando só pode ser usado pelo Victor!',
 					admin: 'Este comando só pode ser usado por administradores de grupo!',
 					Badmin: 'Este comando só pode ser usado quando o bot se torna administrador!',
-                                        daftarB: `── 「REGISTRE-SE」 ──\nOlá!\nVocê não está registrado no banco de dados da Serena, \n\nComando : ${prefix}daftar nome idade\nExemplo : ${prefix}daftar Victor 15`,
+                                        daftarB: `── 「REGISTRE-SE」 ──\nOlá!\nSe registre no banco de dados da Serena\nComando : ${prefix}daftar nome idade\nExemplo : ${prefix}daftar Victor 15`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
@@ -1994,13 +1994,13 @@ case 'timer':
 					})
 					break
                                 case 'clearall':
-					if (!isOwner) return reply('Quem é vc?')
+					if (!isOwner) return reply('Apenas o Victor pode usar esse comando')
 					anu = await client.chats.all()
 					client.setMaxListeners(25)
 					for (let _ of anu) {
 						client.deleteChat(_.jid)
 					}
-					reply('Pronto Senor')
+					reply('Prontinho')
 					break
 				case 'simi':
 					if (args.length < 1) return reply('Onde está o texto?')
@@ -2029,7 +2029,7 @@ case 'timer':
 				case 'clone':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('A tag alvo que você deseja clonar')
+					if (args.length < 1) return reply('Marque o alvo que você deseja clonar')
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
 					let { jid, id, notify } = groupMembers.find(x => x.jid === mentioned)
@@ -2039,7 +2039,7 @@ case 'timer':
 						client.updateProfilePicture(botNumber, buffer)
 						mentions(`Foto profile Berhasil di perbarui menggunakan foto profile @${id.split('@')[0]}`, [jid], true)
 					} catch (e) {
-						reply('Gagal om')
+						reply('Pronto')
 					}
 					break
                                 /*case 'magernulis':
