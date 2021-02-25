@@ -7,6 +7,13 @@ const help = (prefix) => {
   ❏ Dono: Victor♟
   ❏ Número : wa.me/558386737669
   ❏ BOT : Serena セリーナ
+
+◪ MENUS ⛧᭄
+  │
+  ├─❏ ${prefix}help ou ${prefix}menu
+  ├─❏ ${prefix}victormenu
+  ├─❏ ${prefix}menuadmin
+  └─❏ ${prefix}nsfwmenu
   
 ◪ STICKER ⛧᭄
   │
