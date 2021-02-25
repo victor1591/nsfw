@@ -1,15 +1,14 @@
 
 const victormenu = (prefix, pushname) => {
-    return `◪ *Comandos do Victor*
-    │
-    ├─ ❏ ${prefix}setprefix
-    ├─ ❏ ${prefix}block
-    ├─ ❏ ${prefix}bc
-    ├─ ❏ ${prefix}clonr
-    ├─ ❏ ${prefix}
-    ├─ ❏ ${prefix}bcgc
-    └─ ❏ ${prefix}clearall`
-
+    return `◪ COMANDOS DO VICTOR ⛧᭄
+  │
+  ├─❏ ${prefix}clone @     ☆clonar foto do alvo
+  ├─❏ ${prefix}setppbot    ☆mudar a foto do BOT
+  ├─❏ ${prefix}setprefix   ☆mudar o prefixo
+  ├─❏ ${prefix}block @     ☆bloquear um número 
+  ├─❏ ${prefix}clearall    ☆limpar todos os chats
+  └─❏ ${prefix}bcgc`
+    
 }
 
-exports.nabutomenu = nabutomenu
+exports.victormenu = victormenu
